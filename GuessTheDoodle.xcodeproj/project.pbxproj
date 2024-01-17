@@ -14,6 +14,7 @@
 		93CCF8842B56F44200B8CF09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8832B56F44200B8CF09 /* MainView.swift */; };
 		93CCF8862B56F44E00B8CF09 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8852B56F44E00B8CF09 /* MatchManager.swift */; };
 		93CCF8882B56F45500B8CF09 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8872B56F45500B8CF09 /* Misc.swift */; };
+		93EE48A82B58432800B91131 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE48A72B58432800B91131 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		93CCF8832B56F44200B8CF09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		93CCF8852B56F44E00B8CF09 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		93CCF8872B56F45500B8CF09 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		93EE48A72B58432800B91131 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 				93CCF8742B56F31D00B8CF09 /* GuessTheDoodle */,
 				93CCF8832B56F44200B8CF09 /* MainView.swift */,
 				93CCF8852B56F44E00B8CF09 /* MatchManager.swift */,
+				93EE48A72B58432800B91131 /* GameOverView.swift */,
 				93CCF8872B56F45500B8CF09 /* Misc.swift */,
 				93CCF8732B56F31D00B8CF09 /* Products */,
 			);
@@ -150,6 +153,7 @@
 				93CCF8862B56F44E00B8CF09 /* MatchManager.swift in Sources */,
 				93CCF8842B56F44200B8CF09 /* MainView.swift in Sources */,
 				93CCF8882B56F45500B8CF09 /* Misc.swift in Sources */,
+				93EE48A82B58432800B91131 /* GameOverView.swift in Sources */,
 				93CCF8762B56F31D00B8CF09 /* GuessTheDoodleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
