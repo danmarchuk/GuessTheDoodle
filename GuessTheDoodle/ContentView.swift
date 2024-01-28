@@ -16,7 +16,7 @@ struct ContentView: View {
             } else if matchManager.inGame {
                 GameView(matchManager: matchManager)
             } else {
-                MainView(matchManager: matchManager)
+                MenuView(matchManager: matchManager)
             }
         }
         .onAppear {

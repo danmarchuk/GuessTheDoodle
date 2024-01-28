@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct MenuView: View {
     @ObservedObject var matchManager: MatchManager
     
     var body: some View {
@@ -37,7 +37,7 @@ struct MainView: View {
     
     var playButton: some View {
         Button(action: {
-            // TODO: Start MatchmakingMenu
+            matchManager.startMatchMaking()
         }, label: {
             Text("PLAY")
                 .font(.largeTitle)
@@ -61,5 +61,5 @@ struct MainView: View {
 }
 
 #Preview {
-    MainView(matchManager: MatchManager())
+    MenuView(matchManager: MatchManager())
 }

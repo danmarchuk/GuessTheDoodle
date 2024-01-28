@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9306B2472B61631900CEA122 /* MatchManager+ GKMatchmakerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B2462B61631900CEA122 /* MatchManager+ GKMatchmakerViewControllerDelegate.swift */; };
+		9306B2492B61A3EF00CEA122 /* MatchManager+GKMatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B2482B61A3EF00CEA122 /* MatchManager+GKMatchDelegate.swift */; };
 		93CCF8762B56F31D00B8CF09 /* GuessTheDoodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8752B56F31D00B8CF09 /* GuessTheDoodleApp.swift */; };
 		93CCF8782B56F31D00B8CF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8772B56F31D00B8CF09 /* ContentView.swift */; };
 		93CCF87A2B56F31E00B8CF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CCF8792B56F31E00B8CF09 /* Assets.xcassets */; };
 		93CCF87D2B56F31E00B8CF09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CCF87C2B56F31E00B8CF09 /* Preview Assets.xcassets */; };
-		93CCF8842B56F44200B8CF09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8832B56F44200B8CF09 /* MainView.swift */; };
+		93CCF8842B56F44200B8CF09 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8832B56F44200B8CF09 /* MenuView.swift */; };
 		93CCF8862B56F44E00B8CF09 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8852B56F44E00B8CF09 /* MatchManager.swift */; };
 		93CCF8882B56F45500B8CF09 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCF8872B56F45500B8CF09 /* Misc.swift */; };
 		93EE48A82B58432800B91131 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE48A72B58432800B91131 /* GameOverView.swift */; };
@@ -21,12 +23,14 @@
 
 /* Begin PBXFileReference section */
 		9306B2452B6159CB00CEA122 /* GuessTheDoodle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuessTheDoodle.entitlements; sourceTree = "<group>"; };
+		9306B2462B61631900CEA122 /* MatchManager+ GKMatchmakerViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchManager+ GKMatchmakerViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		9306B2482B61A3EF00CEA122 /* MatchManager+GKMatchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchManager+GKMatchDelegate.swift"; sourceTree = "<group>"; };
 		93CCF8722B56F31D00B8CF09 /* GuessTheDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CCF8752B56F31D00B8CF09 /* GuessTheDoodleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheDoodleApp.swift; sourceTree = "<group>"; };
 		93CCF8772B56F31D00B8CF09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93CCF8792B56F31E00B8CF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CCF87C2B56F31E00B8CF09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		93CCF8832B56F44200B8CF09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		93CCF8832B56F44200B8CF09 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		93CCF8852B56F44E00B8CF09 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		93CCF8872B56F45500B8CF09 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
 		93EE48A72B58432800B91131 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
@@ -49,12 +53,14 @@
 			isa = PBXGroup;
 			children = (
 				93CCF8742B56F31D00B8CF09 /* GuessTheDoodle */,
-				93CCF8832B56F44200B8CF09 /* MainView.swift */,
+				93CCF8832B56F44200B8CF09 /* MenuView.swift */,
 				93CCF8852B56F44E00B8CF09 /* MatchManager.swift */,
 				93EE48A72B58432800B91131 /* GameOverView.swift */,
 				93EE48A92B58520200B91131 /* GameView.swift */,
 				93EE48AB2B59524000B91131 /* DrawingView.swift */,
 				93CCF8872B56F45500B8CF09 /* Misc.swift */,
+				9306B2462B61631900CEA122 /* MatchManager+ GKMatchmakerViewControllerDelegate.swift */,
+				9306B2482B61A3EF00CEA122 /* MatchManager+GKMatchDelegate.swift */,
 				93CCF8732B56F31D00B8CF09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -159,12 +165,14 @@
 			files = (
 				93CCF8782B56F31D00B8CF09 /* ContentView.swift in Sources */,
 				93CCF8862B56F44E00B8CF09 /* MatchManager.swift in Sources */,
-				93CCF8842B56F44200B8CF09 /* MainView.swift in Sources */,
+				93CCF8842B56F44200B8CF09 /* MenuView.swift in Sources */,
 				93EE48AC2B59524000B91131 /* DrawingView.swift in Sources */,
 				93CCF8882B56F45500B8CF09 /* Misc.swift in Sources */,
 				93EE48A82B58432800B91131 /* GameOverView.swift in Sources */,
 				93CCF8762B56F31D00B8CF09 /* GuessTheDoodleApp.swift in Sources */,
+				9306B2472B61631900CEA122 /* MatchManager+ GKMatchmakerViewControllerDelegate.swift in Sources */,
 				93EE48AA2B58520200B91131 /* GameView.swift in Sources */,
+				9306B2492B61A3EF00CEA122 /* MatchManager+GKMatchDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
